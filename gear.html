@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="南湖大山登山裝備檢查表">
+  <meta name="base-path" content="./">
+  <title>裝備 · 南湖大山</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">南湖大山 <span>4D3N</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="開啟選單">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="itinerary.html">行程</a></li>
+          <li><a href="peaks.html">百岳</a></li>
+          <li><a href="gear.html" aria-current="page">裝備</a></li>
+          <li><a href="safety.html">安全</a></li>
+          <li><a href="about.html">關於</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">裝備檢查表</h1>
+    <p class="page-lead">勾選會儲存在本機瀏覽器。背包總重建議不超過體重 20%。裝備不足或危害安全時，領隊得要求撤退。</p>
+
+    <div class="gear-progress">
+      <p id="gear-progress-text">載入中…</p>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+        <div id="gear-progress-fill" class="progress-fill"></div>
+      </div>
+    </div>
+
+    <div id="gear-checklist"></div>
+
+    <div class="gear-actions">
+      <button type="button" class="btn btn-secondary" id="gear-reset">清除所有勾選</button>
+      <a class="btn btn-primary" href="safety.html">下一步：安全須知</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>南湖大山團隊 · 行前資訊站</p>
+      <p class="disclaimer">實際行程視天候與團員狀況調整。資料來源：<a href="https://drive.google.com/file/d/1q-XJV7dfy6TD45XrHoxujE6jUtfNvxj5/view">行前說明</a>、<a href="https://travelwildtw.com/item/pd64a6817d91d0d">荒野旅人</a>。</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/gear-checklist.js"></script>
+</body>
+</html>

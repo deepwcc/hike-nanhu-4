@@ -1,0 +1,67 @@
+{
+  "storageKey": "nanhu-gear-v1",
+  "sections": [
+    {
+      "id": "pre-check",
+      "title": "出發前檢查（頭燈）",
+      "items": [
+        { "id": "headlamp-works", "text": "頭燈還能使用" },
+        { "id": "batteries-in", "text": "電池已裝入" },
+        { "id": "spare-batteries", "text": "備用電池已攜帶" }
+      ]
+    },
+    {
+      "id": "pack",
+      "title": "登山裝備",
+      "items": [
+        { "id": "backpack", "text": "大背包 40–60L（總重 ≤ 體重 20%）" },
+        { "id": "rain-cover", "text": "背包防雨套" },
+        { "id": "waterproof-pack", "text": "內層防水打包（塑膠袋/防水袋）" },
+        { "id": "poles", "text": "登山杖 ×2（建議）" },
+        { "id": "headlamp", "text": "頭燈 120 流明以上 + 備用電池" }
+      ]
+    },
+    {
+      "id": "clothes",
+      "title": "衣物（穿一帶一）",
+      "items": [
+        { "id": "base-layer", "text": "底層排汗衣（勿棉質）" },
+        { "id": "mid-layer", "text": "中層保暖（刷毛/化纖/羽绒）" },
+        { "id": "down-jacket", "text": "羽绒外套（休息穿）" },
+        { "id": "rain-suit", "text": "兩截式雨衣（禁便利商店輕便雨衣）" },
+        { "id": "pants", "text": "耐磨長褲 / 壓縮褲" },
+        { "id": "boots", "text": "習慣的好走登山鞋（新鞋需提前磨合）" },
+        { "id": "socks", "text": "羊毛襪（高於鞋筒）" },
+        { "id": "beanie", "text": "毛帽" }
+      ]
+    },
+    {
+      "id": "personal",
+      "title": "個人用品",
+      "items": [
+        { "id": "sleeping-pad", "text": "睡墊（必帶）" },
+        { "id": "utensils", "text": "環保碗筷（輕量耐熱）" },
+        { "id": "water", "text": "水壺/水袋（耐熱材質）" },
+        { "id": "meds", "text": "個人藥品（含高山症醫囑用藥）" },
+        { "id": "id", "text": "身分證、健保卡" },
+        { "id": "powerbank", "text": "行動電源" },
+        { "id": "toothbrush", "text": "牙刷（乾刷）" },
+        { "id": "hygiene", "text": "衛生紙、生理用品" },
+        { "id": "trash-bags", "text": "垃圾袋" },
+        { "id": "snacks", "text": "行動糧 + 四天午餐" }
+      ]
+    },
+    {
+      "id": "optional",
+      "title": "建議自選",
+      "items": [
+        { "id": "winter-kit", "text": "圍脖、手套（冬季三寶）" },
+        { "id": "sun-hat", "text": "遮陽帽" },
+        { "id": "thermos", "text": "保溫瓶" },
+        { "id": "sunscreen", "text": "防曬乳、護唇膏" },
+        { "id": "sunglasses", "text": "太陽眼鏡" },
+        { "id": "knee-guard", "text": "護膝" }
+      ]
+    }
+  ]
+}
