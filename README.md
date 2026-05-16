@@ -6,15 +6,36 @@
 
 **GitHub Pages：** push 到 `main` 後，於 repo **Settings → Pages** 選 **GitHub Actions** 來源。網址：`https://<username>.github.io/hike-nanhu-4/`
 
-**出發倒數：** 編輯 `js/main.js` 的 `DEPARTURE_ISO`。
+---
+
+## 頁面
+
+| 檔案 | 內容 |
+|------|------|
+| `index.html` | 首頁（出發倒數、路線概覽） |
+| `itinerary.html` | 四日行程 + 高度剖面圖 |
+| `maps.html` | 離線地圖 & GPX 下載（四段 GPX） |
+| `peaks.html` | 百岳介紹（南湖大山、南湖北峰、南湖東峰、馬比杉山） |
+| `gear.html` | 裝備清單（互動勾選） |
+| `safety.html` | 安全須知 |
+| `training.html` | 體能訓練建議 |
+
+## 資源
+
+| 路徑 | 內容 |
+|------|------|
+| `data/gpx/` | `day1.gpx` – `day4.gpx`（實際 GPS 軌跡，2025/10/05–07） |
+| `data/gear.json` | 裝備清單資料 |
+| `css/style.css` | 全站樣式 |
+| `js/main.js` | 導覽列、倒數計時 |
+| `js/gear-checklist.js` | 裝備勾選互動 |
+| `img/nanhu-all.jpg` | 首頁橫幅照片 |
 
 ---
 
 ## Claude 技能包
 
 給 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 使用。
-
-## 三份技能
 
 | 技能 | 路徑 | 用途 |
 |------|------|------|
@@ -35,7 +56,3 @@
 2. **建站：** 「依照 nanhu-github-pages，用 trip-content 建一個 GitHub Pages 團隊網站」
 
 技能會自動被 Claude Code 讀取（`.claude/skills/`）。
-
-## Cursor 使用者
-
-若要在 Cursor 使用，可將三個資料夾複製到專案 `.cursor/skills/`（結構相同，皆含 `SKILL.md`）。
