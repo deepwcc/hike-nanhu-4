@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="南湖大山團隊" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>D2 雲稜山莊 → 南湖山屋</name>
+    <desc>參考航點，非完整 GPS 航跡。請以領隊指引與實際地形為準。</desc>
+  </metadata>
+  <wpt lat="24.3767" lon="121.4280">
+    <ele>2615</ele>
+    <name>雲稜山莊</name>
+    <desc>D2 出發點</desc>
+  </wpt>
+  <wpt lat="24.3867" lon="121.4017">
+    <ele>3141</ele>
+    <name>審馬陣山</name>
+    <desc>百岳 #83，審馬陣草原，海拔 3141m</desc>
+  </wpt>
+  <wpt lat="24.3750" lon="121.3933">
+    <ele>3536</ele>
+    <name>南湖北山</name>
+    <desc>百岳 #22，蘭陽溪源頭，海拔 3536m</desc>
+  </wpt>
+  <wpt lat="24.3633" lon="121.3867">
+    <ele>3592</ele>
+    <name>南湖北峰（五岩峰）</name>
+    <desc>五岩峰拉繩路段，海拔 3592m，非百岳</desc>
+  </wpt>
+  <wpt lat="24.3633" lon="121.3900">
+    <ele>3394</ele>
+    <name>南湖山屋</name>
+    <desc>D2 夜宿，圈谷營地，海拔 3394m</desc>
+  </wpt>
+</gpx>

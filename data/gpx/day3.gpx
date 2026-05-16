@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="南湖大山團隊" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>D3 攻頂日（南湖山屋 往返）</name>
+    <desc>參考航點，非完整 GPS 航跡。請以領隊指引與實際地形為準。凌晨出發需頭燈。</desc>
+  </metadata>
+  <wpt lat="24.3633" lon="121.3900">
+    <ele>3394</ele>
+    <name>南湖山屋</name>
+    <desc>D3 凌晨 04:00 出發，需頭燈</desc>
+  </wpt>
+  <wpt lat="24.3607" lon="121.3897">
+    <ele>3742</ele>
+    <name>南湖大山主峰</name>
+    <desc>百岳 #8，台灣五嶽之一，「帝王之山」，海拔 3742m</desc>
+  </wpt>
+  <wpt lat="24.3567" lon="121.3967">
+    <ele>3632</ele>
+    <name>南湖東峰</name>
+    <desc>百岳 #14，十巖之首，山頂狹窄強風，海拔 3632m</desc>
+  </wpt>
+  <wpt lat="24.3633" lon="121.3900">
+    <ele>3394</ele>
+    <name>南湖山屋（回程）</name>
+    <desc>整裝後開始回程至雲稜</desc>
+  </wpt>
+  <wpt lat="24.3633" lon="121.3867">
+    <ele>3592</ele>
+    <name>南湖北峰（五岩峰回程）</name>
+    <desc>回程再次通過五岩峰</desc>
+  </wpt>
+  <wpt lat="24.3767" lon="121.4280">
+    <ele>2615</ele>
+    <name>雲稜山莊</name>
+    <desc>D3 夜宿</desc>
+  </wpt>
+</gpx>

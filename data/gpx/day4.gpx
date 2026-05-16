@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="南湖大山團隊" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>D4 雲稜山莊 → 勝光登山口</name>
+    <desc>參考航點，非完整 GPS 航跡。請以領隊指引與實際地形為準。</desc>
+  </metadata>
+  <wpt lat="24.3767" lon="121.4280">
+    <ele>2615</ele>
+    <name>雲稜山莊</name>
+    <desc>D4 06:00 出發</desc>
+  </wpt>
+  <wpt lat="24.3730" lon="121.4420">
+    <ele>2500</ele>
+    <name>木杆鞍部</name>
+    <desc>下山途中路過</desc>
+  </wpt>
+  <wpt lat="24.3680" lon="121.4600">
+    <ele>2795</ele>
+    <name>松風嶺</name>
+    <desc>海拔 2795m，繼續下行</desc>
+  </wpt>
+  <wpt lat="24.3600" lon="121.4833">
+    <ele>1700</ele>
+    <name>勝光登山口</name>
+    <desc>D4 約 14:00 抵達，搭車返台北，約 18:00 解散</desc>
+  </wpt>
+</gpx>

@@ -765,3 +765,397 @@ main {
 .highlight-list li {
   margin-bottom: 0.35rem;
 }
+
+/* ── Shop page ── */
+.shop-category {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.shop-category h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--pine);
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--mist-dark);
+}
+
+.shop-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.75rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px dashed var(--mist-dark);
+}
+
+.shop-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.shop-item .item-name {
+  font-weight: 600;
+  color: var(--pine-light);
+  white-space: nowrap;
+  min-width: 6rem;
+}
+
+.shop-item .item-desc {
+  flex: 1;
+  color: var(--rock);
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+
+.shop-item .item-budget {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.budget-low {
+  background: #d8f3dc;
+  color: #1b4332;
+}
+
+.budget-mid {
+  background: #fff3cd;
+  color: #7a4f00;
+}
+
+.budget-high {
+  background: #fde8d0;
+  color: #8b3a00;
+}
+
+/* ── Training page ── */
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.training-phase {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem 1.25rem 1.25rem;
+  border-left: 5px solid var(--mist-dark);
+}
+
+.training-phase h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0.4rem 0 0.5rem;
+  color: var(--rock);
+}
+
+.training-phase--green  { border-left-color: var(--pine-light); }
+.training-phase--amber  { border-left-color: var(--amber-dark); }
+.training-phase--teal   { border-left-color: #2a9d8f; }
+.training-phase--gray   { border-left-color: #adb5bd; }
+
+.training-week {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--rock-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
+.progress-ring {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--pine);
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.checklist-inline {
+  font-size: 0.92rem;
+  color: var(--rock-muted);
+  margin: 0.25rem 0 0;
+}
+
+/* ── Warn box ── */
+.warn-box {
+  background: rgba(220, 53, 69, 0.08);
+  border: 1px solid rgba(220, 53, 69, 0.45);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.warn-box strong {
+  color: #c0392b;
+}
+
+/* ── Maps page ── */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.app-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--mist-dark);
+}
+
+.app-card-icon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.app-card-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--pine);
+  margin: 0 0 0.4rem;
+}
+
+.app-card-desc {
+  font-size: 0.92rem;
+  color: var(--rock-muted);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.step-list {
+  margin: 0.75rem 0 1.25rem;
+  padding-left: 1.5rem;
+  counter-reset: step;
+  list-style: none;
+}
+
+.step-list li {
+  counter-increment: step;
+  position: relative;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  border-bottom: 1px solid var(--mist-dark);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.step-list li:last-child {
+  border-bottom: none;
+}
+
+.step-list li::before {
+  content: counter(step);
+  position: absolute;
+  left: -1.6rem;
+  top: 0.55rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: var(--pine-light);
+  color: var(--white);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-list + h3 {
+  margin-top: 1.5rem;
+}
+
+.gpx-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.gpx-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--mist-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.gpx-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--pine);
+}
+
+.gpx-day {
+  display: inline-block;
+  background: var(--pine);
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 6px;
+  margin-bottom: 0.15rem;
+  width: fit-content;
+}
+
+.gpx-duration {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--rock-muted);
+}
+
+.gpx-waypoints {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--rock-muted);
+}
+
+.gpx-label {
+  font-weight: 600;
+  color: var(--pine-light);
+}
+
+.gpx-card .btn {
+  margin-top: auto;
+  padding-top: 0.9rem;
+}
+
+/* ── Diamox page ── */
+.symptom-list {
+  list-style: none;
+  margin: 0.5rem 0 1rem;
+  padding: 0;
+}
+
+.symptom-list li {
+  padding: 0.45rem 0.75rem;
+  border-left: 3px solid var(--amber);
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  background: rgba(233, 196, 106, 0.08);
+  border-radius: 0 6px 6px 0;
+}
+
+.drug-grid {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 0.5rem 1rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.drug-grid dt {
+  font-weight: 600;
+  color: var(--pine);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--mist-dark);
+}
+
+.drug-grid dd {
+  margin: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--mist-dark);
+  font-size: 0.95rem;
+}
+
+.drug-grid dt:last-of-type,
+.drug-grid dd:last-of-type {
+  border-bottom: none;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--pine);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--rock-muted);
+}
+
+/* ── Elevation chart ── */
+.elevation-chart {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.elevation-chart h3 {
+  margin: 0 0 1rem;
+  color: var(--pine);
+  font-size: 1rem;
+}
+
+.elevation-chart svg {
+  display: block;
+  width: 100%;
+  min-width: 480px;
+}
+
+/* ── Overview section ── */
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.overview-item {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--mist-dark);
+  box-shadow: var(--shadow);
+}
+
+.overview-item dt {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--rock-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.overview-item dd {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--pine);
+  line-height: 1.4;
+}

@@ -22,8 +22,12 @@
           <li><a href="index.html">首頁</a></li>
           <li><a href="itinerary.html" aria-current="page">行程</a></li>
           <li><a href="peaks.html">百岳</a></li>
+          <li><a href="maps.html">地圖</a></li>
           <li><a href="gear.html">裝備</a></li>
+          <li><a href="shop.html">採購</a></li>
           <li><a href="safety.html">安全</a></li>
+          <li><a href="diamox.html">丹木斯</a></li>
+          <li><a href="training.html">訓練</a></li>
           <li><a href="about.html">關於</a></li>
         </ul>
       </nav>
@@ -34,9 +38,74 @@
     <h1 class="page-title">每日行程</h1>
     <p class="page-lead">實際活動視天候與團員狀況由領隊調整。</p>
 
+    <section class="section">
+      <h2>行程簡介</h2>
+      <p>南湖大山位於中央山脈北段，四天三夜縱走北一段精華路段，從勝光登山口入山，歷經審馬陣草原、五岩峰技術路段、圈谷冰河地景，最終攻頂台灣第八高峰。全程累計爬升約 3,400 公尺，D3 攻頂日行走達 12 小時，為進階高山難度行程。</p>
+      <dl class="overview-grid">
+        <div class="overview-item"><dt>入山口</dt><dd>宜蘭縣勝光登山口</dd></div>
+        <div class="overview-item"><dt>總天數</dt><dd>4 天 3 夜</dd></div>
+        <div class="overview-item"><dt>最高點</dt><dd>南湖大山主峰 3,742m</dd></div>
+        <div class="overview-item"><dt>累計爬升</dt><dd>約 3,400m</dd></div>
+        <div class="overview-item"><dt>最長單日</dt><dd>D3 約 12 小時</dd></div>
+        <div class="overview-item"><dt>夜宿山屋</dt><dd>雲稜山莊 × 2 夜、南湖山屋 × 1 夜</dd></div>
+        <div class="overview-item"><dt>百岳數</dt><dd>四座（審馬陣、北山、大山、東峰）</dd></div>
+        <div class="overview-item"><dt>難度</dt><dd>進階高山（需百岳/高海拔經驗）</dd></div>
+      </dl>
+    </section>
+
     <figure class="route-map">
       <img src="img/nanhu-all.jpg" alt="南湖大山路線圖：勝光山 → 雲稜山屋 → 審馬陣山 → 南湖北山 → 南湖山屋 → 南湖大山主峰 → 南湖東峰">
     </figure>
+
+    <div class="elevation-chart">
+      <h3>四天爬升剖面圖</h3>
+      <svg viewBox="0 0 800 220" aria-label="南湖大山四天爬升剖面圖" role="img">
+        <!-- Background -->
+        <rect x="0" y="0" width="800" height="200" fill="#f8f9fa" rx="4"/>
+        <!-- Grid lines -->
+        <line x1="0" y1="140" x2="800" y2="140" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="0" y1="107" x2="800" y2="107" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="0" y1="73" x2="800" y2="73" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4,4"/>
+        <line x1="0" y1="40" x2="800" y2="40" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4,4"/>
+        <!-- Grid labels -->
+        <text x="4" y="138" font-size="10" fill="#6c757d">2000m</text>
+        <text x="4" y="105" font-size="10" fill="#6c757d">2500m</text>
+        <text x="4" y="71" font-size="10" fill="#6c757d">3000m</text>
+        <text x="4" y="38" font-size="10" fill="#6c757d">3500m</text>
+        <!-- Day dividers -->
+        <line x1="167" y1="0" x2="167" y2="200" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+        <line x1="358" y1="0" x2="358" y2="200" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+        <line x1="644" y1="0" x2="644" y2="200" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+        <!-- Day labels -->
+        <text x="83" y="195" font-size="11" font-weight="700" fill="#2d6a4f" text-anchor="middle">D1</text>
+        <text x="262" y="195" font-size="11" font-weight="700" fill="#2d6a4f" text-anchor="middle">D2</text>
+        <text x="501" y="195" font-size="11" font-weight="700" fill="#2d6a4f" text-anchor="middle">D3</text>
+        <text x="722" y="195" font-size="11" font-weight="700" fill="#2d6a4f" text-anchor="middle">D4</text>
+        <!-- Elevation fill -->
+        <path d="M 0,160 L 60,87 L 120,107 L 167,99 L 230,64 L 295,38 L 330,34 L 358,47 L 440,24 L 480,31 L 510,47 L 555,34 L 644,99 L 710,87 L 750,107 L 800,160 L 800,200 L 0,200 Z"
+              fill="rgba(45,106,79,0.15)"/>
+        <!-- Elevation line -->
+        <path d="M 0,160 L 60,87 L 120,107 L 167,99 L 230,64 L 295,38 L 330,34 L 358,47 L 440,24 L 480,31 L 510,47 L 555,34 L 644,99 L 710,87 L 750,107 L 800,160"
+              fill="none" stroke="#2d6a4f" stroke-width="2.5" stroke-linejoin="round"/>
+        <!-- Peak markers -->
+        <circle cx="230" cy="64" r="4" fill="#e9c46a"/>
+        <circle cx="295" cy="38" r="4" fill="#e9c46a"/>
+        <circle cx="440" cy="24" r="5" fill="#1b4332"/>
+        <circle cx="480" cy="31" r="4" fill="#e9c46a"/>
+        <!-- Peak labels -->
+        <text x="230" y="57" font-size="9" fill="#7a4f00" text-anchor="middle">審馬陣</text>
+        <text x="295" y="31" font-size="9" fill="#7a4f00" text-anchor="middle">北山</text>
+        <text x="440" y="17" font-size="10" font-weight="700" fill="#1b4332" text-anchor="middle">主峰 3742m</text>
+        <text x="480" y="24" font-size="9" fill="#7a4f00" text-anchor="middle">東峰</text>
+        <!-- Hut markers -->
+        <circle cx="167" cy="99" r="4" fill="#e9c46a" stroke="#2d6a4f" stroke-width="1.5"/>
+        <circle cx="358" cy="47" r="4" fill="#e9c46a" stroke="#2d6a4f" stroke-width="1.5"/>
+        <circle cx="644" cy="99" r="4" fill="#e9c46a" stroke="#2d6a4f" stroke-width="1.5"/>
+        <text x="167" y="92" font-size="9" fill="#495057" text-anchor="middle">雲稜</text>
+        <text x="358" y="40" font-size="9" fill="#495057" text-anchor="middle">南湖山屋</text>
+        <text x="644" y="92" font-size="9" fill="#495057" text-anchor="middle">雲稜</text>
+      </svg>
+    </div>
 
     <details class="day-block" open>
       <summary class="day-summary"><span><span class="day-num">D1</span>勝光 → 雲稜山莊</span><span class="hours">行走約 7 小時</span></summary>
@@ -97,13 +166,24 @@
     </details>
 
     <section class="section">
-      <h2>食宿</h2>
+      <h2>山屋與食宿</h2>
+      <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); margin-bottom:1rem;">
+        <article class="card">
+          <h3>雲稜山莊</h3>
+          <p>海拔 2,615m，D1、D3 夜宿。木造山屋，設有通鋪與廁所。供應晚餐與早餐，可提供素食（請事先於群組告知）。</p>
+        </article>
+        <article class="card">
+          <h3>南湖山屋</h3>
+          <p>海拔 3,394m，位於南湖圈谷內，D2 夜宿。供應晚餐與早餐（D3 凌晨出發供早餐）。山屋空間有限，請遵守山屋規範。</p>
+        </article>
+      </div>
       <dl class="lodging-grid">
-        <div class="lodging-item"><dt>D1、D3 夜</dt><dd>雲稜山莊 2615m</dd></div>
-        <div class="lodging-item"><dt>D2 夜</dt><dd>南湖山屋 3394m（圈谷）</dd></div>
-        <div class="lodging-item"><dt>餐食</dt><dd>山屋早晚餐；午餐與行動糧自理</dd></div>
         <div class="lodging-item"><dt>睡袋</dt><dd>行程提供</dd></div>
         <div class="lodging-item"><dt>睡墊</dt><dd><strong>必帶</strong>（山屋有巧拼可自決是否再加）</dd></div>
+        <div class="lodging-item"><dt>早晚餐</dt><dd>山屋供應（D3 攻頂日凌晨 03:30 供早餐）</dd></div>
+        <div class="lodging-item"><dt>午餐</dt><dd><strong>全程自理</strong>（飯糰、麵包、包子等方便即食）</dd></div>
+        <div class="lodging-item"><dt>行動糧</dt><dd>自備：堅果、巧克力、能量棒等，每日備足</dd></div>
+        <div class="lodging-item"><dt>素食</dt><dd>可提供，請出發前在群組告知</dd></div>
       </dl>
     </section>
   </main>
