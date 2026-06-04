@@ -1046,6 +1046,20 @@ main {
   padding-top: 0.9rem;
 }
 
+/* ── Source note ── */
+.source-note {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+.source-note a {
+  color: #6c757d;
+  text-decoration: underline;
+}
+.source-note a:hover {
+  color: var(--green-dark);
+}
+
 /* ── Diamox page ── */
 .symptom-list {
   list-style: none;
