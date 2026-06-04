@@ -26,8 +26,7 @@ jobs:
       - name: Prepare site bundle
         run: |
           mkdir -p _site
-          cp index.html itinerary.html peaks.html gear.html safety.html about.html _site/
-          cp maps.html shop.html diamox.html training.html _site/
+          cp index.html itinerary.html peaks.html gear.html safety.html maps.html training.html _site/
           cp -r css js data img _site/
       - uses: actions/upload-pages-artifact@v3
         with:
